@@ -14,12 +14,12 @@
     "format": "npx rome format --write --verbose ./src"
   },
   "lint-staged": {
-    "./src/**/*.{css,scss}": [
-      "stylelint --fix"
-    ],
-    "./src/**/*.{js,jsx,ts,tsx}": [
+    "./src/**/*.{json,js,jsx,ts,tsx}": [
       "npx rome check --apply --verbose",
       "npx rome format --write --verbose"
+    ],
+    "./src/**/*.{css,scss}": [
+      "stylelint --fix"
     ]
   },
   "dependencies": {
