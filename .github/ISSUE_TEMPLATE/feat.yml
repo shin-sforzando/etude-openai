@@ -1,4 +1,4 @@
-name: Feat Form (機能追加)
+name: Feature Form (機能追加)
 description: Suggest an idea for this project
 title: "feat: <title>"
 assignees:
@@ -10,7 +10,7 @@ body:
       label: Goal
       description: |
         Describe the desired **state**.
-
+      placeholder: |
         ex. Automated testing should be completed with just a push.
     validations:
       required: true
@@ -19,9 +19,7 @@ body:
       label: Acceptance criteria
       description: |
         Describe the acceptance criteria, like test code.
-
-        ex.
-
+      placeholder: |
         ```python
         assert 1 + 1 == 2
         ```
@@ -32,9 +30,7 @@ body:
       label: Proposal
       description: |
         List any options that might solve the issue.
-
-        ex.
-
+      placeholder: |
         - GitHub Actions
         - Circle CI
     validations:

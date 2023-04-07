@@ -33,10 +33,10 @@ A clear and concise description of where may be affected by the changes.
 
 Steps to check the behavior:
 
-1. Update Libraries `...`
-1. Import Database `...`
-1. Reload Pages `...`
-1. Click on `...`
+1. Update Libraries `npm install`
+1. Start Dev Server `npm run dev`
+1. Reload Pages `http://localhost:3000/`
+1. Check `...`
 
 ## Appendix
 
