@@ -34,7 +34,10 @@ Etude for OpenAI.
 
 ## Prerequisites
 
-(T. B. D.)
+- Node.js (Version 18)
+  - Next.js (Version 13)
+    - React (Version 18)
+  - Rome (Version 12) *as linter and formatter*
 
 ## How to
 
