@@ -1,9 +1,7 @@
 {
   "$schema": "./node_modules/rome/configuration_schema.json",
   "files": {
-    "ignore": [
-      ".next"
-    ]
+    "ignore": [".next"]
   },
   "linter": {
     "enabled": true,
@@ -19,11 +17,16 @@
     "lineWidth": 80,
     "ignore": []
   },
+
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
       "semicolons": "asNeeded",
       "trailingComma": "es5"
-    }
+    },
+    "globals": []
+  },
+  "organizeImports": {
+    "enabled": true
   }
 }
