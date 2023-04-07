@@ -1,17 +1,35 @@
 {
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports.rome": true,
-    "source.fixAll.stylelint": true
+  "[json]": {
+    "editor.defaultFormatter": "rome.rome"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "rome.rome"
+    "editor.defaultFormatter": "rome.rome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.rome": true
+    }
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "rome.rome"
+    "editor.defaultFormatter": "rome.rome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.rome": true
+    }
   },
   "[typescript]": {
-    "editor.defaultFormatter": "rome.rome"
+    "editor.defaultFormatter": "rome.rome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.rome": true
+    }
+  },
+  "[css]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[scss]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,

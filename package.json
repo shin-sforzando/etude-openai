@@ -15,12 +15,9 @@
   },
   "lint-staged": {
     "./src/**/*.{json,js,jsx,ts,tsx}": [
-      "npx rome check --apply --verbose",
-      "npx rome format --write --verbose"
+      "npx rome check --apply --verbose", "npx rome format --write --verbose"
     ],
-    "./src/**/*.{css,scss}": [
-      "stylelint --fix"
-    ]
+    "./src/**/*.{css,scss}": ["stylelint --fix"]
   },
   "dependencies": {
     "@types/node": "18.15.11",
