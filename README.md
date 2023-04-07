@@ -37,7 +37,8 @@ Etude for OpenAI.
 - Node.js (Version 18)
   - Next.js (Version 13)
     - React (Version 18)
-  - Rome (Version 12) *as linter and formatter*
+  - Rome (Version 12) *as linter and formatter for codes*
+  - Stylelint (Version 15) *as linter for styles*
 
 ## How to
 

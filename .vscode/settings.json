@@ -21,6 +21,18 @@
       "source.organizeImports.rome": true
     }
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rome.rome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.rome": true
+    }
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "rome.rome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.rome": true
+    }
+  },
   "[css]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.stylelint": true
@@ -33,5 +45,5 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "cSpell.words": ["openai", "stylelint"]
+  "cSpell.words": ["autodocs", "nextjs", "openai", "stylelint"]
 }
