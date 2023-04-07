@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,6 +12,12 @@
     "lint:code": "npx rome check --apply --verbose ./src",
     "lint:style": "stylelint --fix './src/**/*.{css,scss}'",
     "format": "npx rome format --write --verbose ./src"
+  },
+  "lint-staged": {
+    "./src/**/*.{json,js,jsx,ts,tsx}": [
+      "npx rome check --apply --verbose", "npx rome format --write --verbose"
+    ],
+    "./src/**/*.{css,scss}": ["stylelint --fix"]
   },
   "dependencies": {
     "@types/node": "18.15.11",
@@ -22,6 +29,8 @@
     "typescript": "5.0.3"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
     "npm-run-all": "^4.1.5",
     "rome": "12.0.0",
     "sass": "^1.61.0",
