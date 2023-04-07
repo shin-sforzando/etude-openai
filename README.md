@@ -26,6 +26,7 @@ Etude for OpenAI.
   - [Lint](#lint)
   - [Format](#format)
   - [Build](#build)
+  - [Storybook](#storybook)
   - [Deploy](#deploy)
 - [Misc](#misc)
 - [Notes](#notes)
@@ -39,10 +40,36 @@ Etude for OpenAI.
     - React (Version 18)
   - Rome (Version 12) *as linter and formatter for codes*
   - Stylelint (Version 15) *as linter for styles*
+  - Storybook (Version 7)
 
 ## How to
 
-(T. B. D.)
+```shell
+$ npm run
+Lifecycle scripts included in etude-openai@0.1.0:
+  start
+    next start
+
+available via `npm run-script`:
+  prepare
+    husky install
+  dev
+    next dev
+  build
+    next build
+  lint
+    npm-run-all --parallel lint:*
+  lint:code
+    npx rome check --apply --verbose ./src
+  lint:style
+    stylelint --fix './src/**/*.{css,scss}'
+  format
+    npx rome format --write --verbose ./src
+  storybook
+    storybook dev -p 6006
+  build-storybook
+    storybook build
+```
 
 ### Develop
 
@@ -50,7 +77,7 @@ Etude for OpenAI.
 
 ### Launch Dev Server
 
-`npm run dev` to launch development server.
+`npm run dev` to launch development server on `http://localhost:3000/`.
 
 ### Lint
 
@@ -62,11 +89,15 @@ Etude for OpenAI.
 
 ### Build
 
-(T. B. D.)
+`npm run build` to build for production.
+
+### Storybook
+
+`npm run storybook` to run Storybook server on `http://localhost:6006/`.
 
 ### Deploy
 
-If it is linked to [Vercel](https://vercel.com/), it will be deployed automatically with each Push.
+(T. B. D.)
 
 ## Misc
 
