@@ -2,7 +2,6 @@
   "recommendations": [
     "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
-    "rome.rome",
     "shd101wyy.markdown-preview-enhanced",
     "streetsidesoftware.code-spell-checker",
     "stylelint.vscode-stylelint",

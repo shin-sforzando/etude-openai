@@ -1,38 +1,4 @@
 {
-  "editor.formatOnSave": true,
-  "[json]": {
-    "editor.defaultFormatter": "rome.rome"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
-  },
-  "[mdx]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
-  },
   "[css]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.stylelint": true
