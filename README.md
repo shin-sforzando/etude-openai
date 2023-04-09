@@ -38,7 +38,9 @@ Etude for OpenAI.
 - Node.js (Version 18)
   - Next.js (Version 13)
     - React (Version 18)
-  - Stylelint (Version 15) *as linter for styles*
+  - ESLint _as Linter for codes_
+  - Prettier _as Formatter for codes_
+  - Stylelint _as linter for styles_
   - Storybook (Version 7)
 
 ## How to
@@ -62,6 +64,8 @@ available via `npm run-script`:
     next lint
   lint:style
     stylelint --fix './src/**/*.{css,scss}'
+  format
+    prettier --write --ignore-path .gitignore './src/**/*.{json,js,jsx,ts,tsx}'
   storybook
     storybook dev -p 6006
   build-storybook
