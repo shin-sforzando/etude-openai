@@ -1,37 +1,24 @@
 {
+  "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
-  "[json]": {
-    "editor.defaultFormatter": "rome.rome"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
   "[javascript]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
+    "editor.formatOnSave": true
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
+    "editor.formatOnSave": true
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
-  },
-  "[mdx]": {
-    "editor.defaultFormatter": "rome.rome",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.rome": true
-    }
+    "editor.formatOnSave": true
   },
   "[css]": {
     "editor.codeActionsOnSave": {
@@ -45,5 +32,7 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
+  "html.format.extraLiners": "",
+  "html.format.maxPreserveNewLines": 1,
   "cSpell.words": ["autodocs", "nextjs", "openai", "stylelint"]
 }

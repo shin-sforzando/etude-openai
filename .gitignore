@@ -1,21 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/osx,windows,linux,node,nextjs,storybookjs,data,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=osx,windows,linux,node,nextjs,storybookjs,data,visualstudiocode
 
-### Data ###
-*.csv
-*.dat
-*.efx
-*.gbr
-*.key
-*.pps
-*.ppt
-*.pptx
-*.sdf
-*.tax2010
-*.vcf
-*.xml
-
-
 ### Linux ###
 *~
 
@@ -285,6 +270,21 @@ storybook-static/
 # Ignore all local history of files
 .history
 .ionide
+
+
+### Data ###
+*.csv
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
 
 
 # End of https://www.toptal.com/developers/gitignore/api/osx,windows,linux,node,nextjs,storybookjs,data,visualstudiocode
