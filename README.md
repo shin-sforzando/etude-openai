@@ -15,7 +15,7 @@
 
 <!-- Synopsis -->
 
-Etude for OpenAI.
+Etude for OpenAI API.
 
 <!-- TOC -->
 
@@ -23,11 +23,13 @@ Etude for OpenAI.
 - [How to](#how-to)
   - [Develop](#develop)
   - [Launch Dev Server](#launch-dev-server)
+    - [Turbopack (alpha)](#turbopack-alpha)
   - [Lint](#lint)
   - [Format](#format)
   - [Build](#build)
   - [Storybook](#storybook)
   - [Deploy](#deploy)
+  - [Document](#document)
 - [Misc](#misc)
 - [Notes](#notes)
   - [LICENSE](#license)
@@ -56,6 +58,8 @@ available via `npm run-script`:
     husky install
   dev
     next dev
+  turbo
+    next dev --turbo
   build
     next build
   lint
@@ -80,6 +84,10 @@ available via `npm run-script`:
 
 `npm run dev` to launch development server on `http://localhost:3000/`.
 
+#### Turbopack (alpha)
+
+`npm run turbo` to launch development server using [Turbopack](https://turbo.build/pack).
+
 ### Lint
 
 `npm run lint` to lint all scripts.
@@ -97,6 +105,10 @@ available via `npm run-script`:
 `npm run storybook` to run Storybook server on `http://localhost:6006/`.
 
 ### Deploy
+
+(T. B. D.)
+
+### Document
 
 (T. B. D.)
 

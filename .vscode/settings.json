@@ -34,5 +34,5 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "html.format.extraLiners": "",
   "html.format.maxPreserveNewLines": 1,
-  "cSpell.words": ["autodocs", "nextjs", "openai", "stylelint"]
+  "cSpell.words": ["autodocs", "nextjs", "openai", "stylelint", "Turbopack"]
 }
